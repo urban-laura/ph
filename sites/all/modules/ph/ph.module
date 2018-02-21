@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ph feature.
+ */
+
+include_once 'ph.features.inc';

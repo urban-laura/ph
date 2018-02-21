@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+/* line 3, ../sass/ph.sass */
+body::before {
+  background-image: none;
+}
+
+/* line 6, ../sass/ph.sass */
+body {
+  font-family: "Comfortaa", cursive;
+  font-size: 14px;
+  border-top: 80px #333 solid;
+  background-color: #F0F3F5;
+}
+
+/* line 12, ../sass/ph.sass */
+tbody {
+  border-top: none;
+}
+
+/* line 15, ../sass/ph.sass */
+p {
+  margin: 0;
+}
+
+/* line 18, ../sass/ph.sass */
+li {
+  margin-left: 30px;
+}
+
+/* line 21, ../sass/ph.sass */
+h1 {
+  font-size: 3em;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+
+/* line 27, ../sass/ph.sass */
+h2 {
+  font-size: 2.6em;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+}
+
+/* line 32, ../sass/ph.sass */
+h3 {
+  font-size: 2.2em;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+}
+
+/* line 37, ../sass/ph.sass */
+h4 {
+  font-size: 1.8em;
+  font-weight: 300;
+  margin-bottom: 0.75em;
+}
+
+/* line 42, ../sass/ph.sass */
+h5 {
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+/* line 46, ../sass/ph.sass */
+h6 {
+  font-size: 1.2em;
+  margin-bottom: 0.8em;
+}
+
+/* line 50, ../sass/ph.sass */
+.panel-flexible {
+  max-width: 1110px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 56, ../sass/ph.sass */
+.panels-flexible-region {
+  width: 100%;
+}
+
+/* line 59, ../sass/ph.sass */
+.inside.panels-flexible-region-inside {
+  padding: 0px;
+}
+
+/* line 62, ../sass/ph.sass */
+.clearfix.letterhead {
+  margin: auto;
+  margin-top: -80px;
+}
+
+/* line 66, ../sass/ph.sass */
+.letterhead {
+  width: 100%;
+}
+/* line 69, ../sass/ph.sass */
+.letterhead .logo {
+  width: auto;
+  padding: 15px;
+  padding-top: 21px;
+  padding-left: 0;
+}
+/* line 75, ../sass/ph.sass */
+.letterhead .main_menu {
+  width: auto;
+  line-height: 80px;
+  float: none;
+}
+/* line 80, ../sass/ph.sass */
+.letterhead .main_menu p {
+  width: 100%;
+}
+/* line 83, ../sass/ph.sass */
+.letterhead .main_menu a {
+  text-decoration: none;
+  text-shadow: 0 1px 1px #000;
+  color: #CCC;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+/* line 90, ../sass/ph.sass */
+.letterhead .main_menu a:hover {
+  color: #F1541E;
+}
+
+/* line 93, ../sass/ph.sass */
+#introduction, #partners, #advantages, #apply, #parameters {
+  border-top: 1px #D9D9D9 solid;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+/* line 98, ../sass/ph.sass */
+#introduction {
+  border-top: 0px;
+  padding-top: 20px;
+}
+
+/* line 102, ../sass/ph.sass */
+.map iframe {
+  max-width: 350px;
+  width: 100%;
+  height: 350px;
+}

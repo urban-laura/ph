@@ -1,0 +1,82 @@
+<?php
+
+function anchor_menu_menu() {
+  
+  $items['admin/anchor-menu'] = array(
+    'title' => 'Example RSS feed',
+    'page callback' => 'drupal_get_form',
+    'access arguments' => array(
+      'access content',
+    ),
+     'page arguments' => array('anchor_menu_config_form'),
+
+    'type' => MENU_CALLBACK,
+  );
+  return $items;
+}
+
+function anchor_menu_config_form($form, &$form_state) {
+
+
+for ($i=1; $i < 11; $i++) { 
+
+  $query = db_select('anchor_menu', 'am')
+  ->condition('id', $i, '=')
+  ->fields('am', array('title', 'anchor'));
+
+  $result = $query->execute()->fetchAll();
+
+  $form['menu'. $i] = array(
+    '#type' => 'fieldset',
+    '#title' => 'Menu '. $i,
+  );
+
+  $form['menu' . $i]['title' . $i] = array(
+    '#type' => 'textfield',
+    '#title' => 'Menu ' . $i . ' title',
+    '#default_value' => isset($result[0]) ? $result[0]->title : '',
+    '#size' => 20,
+    '#maxlength' => 10,
+  );
+
+  $form['menu' . $i]['anchor' . $i] = array(
+    '#type' => 'textfield',
+    '#title' => 'Menu ' . $i . ' anchor',
+    '#default_value' => isset($result[0]) ? $result[0]->anchor : '',
+    '#size' => 20,
+    '#maxlength' => 10,
+  );
+}
+
+  $form['submit_button'] = array(
+    '#type' => 'submit',
+    '#value' => t('Save'),
+  );
+
+  return $form;
+}
+
+function anchor_menu_config_form_submit($form, &$form_state) {
+
+$nid = db_insert('anchor_menu')
+  ->fields(array('id', 'title', 'anchor'))
+  ->values(array(
+    'id' => NULL,
+    'title' => $form_state['values']['title1'],
+    'anchor' => $form_state['values']['anchor1'],
+  ))
+  ->execute();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
