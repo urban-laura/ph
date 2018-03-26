@@ -29,6 +29,7 @@ CKEDITOR.editorConfig = function(config) {
   config.extraPlugins = 'button';
   config.extraPlugins = 'panelbutton';
   config.extraPlugins = 'colorbutton';
+  config.extraPlugins = 'colordialog';
   config.extraPlugins = 'dialogui';
   config.extraPlugins = 'dialog';
   config.extraPlugins = 'liststyle';
@@ -38,7 +39,12 @@ CKEDITOR.editorConfig = function(config) {
   config.extraPlugins = 'fakeobjects';
   config.extraPlugins = 'iframe';
   config.extraPlugins = 'iframedialog';
-
+  config.extraPlugins = 'panel';
+  config.extraPlugins = 'floatpanel';
+  config.extraPlugins = 'listblock';
+  config.extraPlugins = 'richcombo';
+  config.extraPlugins = 'font';
+  config.extraPlugins = 'justify';
 
   /*
     * Append here extra CSS rules that should be applied into the editing area.

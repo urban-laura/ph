@@ -30,10 +30,10 @@ function ph_default_entityform_type() {
     "label" : "Form",
     "data" : {
       "draftable" : 0,
-      "draft_redirect_path" : "",
+      "draft_redirect_path" : "\\/",
       "draft_button_text" : "",
       "draft_save_text" : { "value" : "", "format" : "filtered_html" },
-      "submit_button_text" : "Megrendelem",
+      "submit_button_text" : "Send message",
       "submit_confirm_msg" : "",
       "your_submissions" : "",
       "disallow_resubmit_msg" : "",
@@ -41,14 +41,14 @@ function ph_default_entityform_type() {
       "page_title_view" : "",
       "preview_page" : 0,
       "submission_page_title" : "",
-      "submission_text" : { "value" : "", "format" : "filtered_html" },
+      "submission_text" : { "value" : "", "format" : "full_html" },
       "submission_show_submitted" : 0,
       "submissions_view" : "default",
       "user_submissions_view" : "default",
       "form_status" : "ENTITYFORM_OPEN",
-      "roles" : { "1" : "1", "3" : "3", "2" : 0 },
+      "roles" : { "1" : "1", "3" : "3", "4" : "4", "2" : 0 },
       "resubmit_action" : "new",
-      "redirect_path" : "",
+      "redirect_path" : "node\\/51",
       "instruction_pre" : { "value" : "", "format" : "filtered_html" }
     },
     "weight" : "0",
@@ -68,11 +68,12 @@ function ph_image_default_styles() {
   $styles['1_nivo'] = array(
     'label' => '1 nivo',
     'effects' => array(
-      3 => array(
-        'name' => 'image_scale_and_crop',
+      8 => array(
+        'name' => 'image_scale',
         'data' => array(
-          'width' => 1110,
-          'height' => 370,
+          'width' => '',
+          'height' => 400,
+          'upscale' => 0,
         ),
         'weight' => 1,
       ),
@@ -104,6 +105,14 @@ function ph_node_info() {
   $items = array(
     'about_us' => array(
       'name' => t('Introduction'),
+      'base' => 'node_content',
+      'description' => '',
+      'has_title' => '1',
+      'title_label' => t('Title (invisible)'),
+      'help' => '',
+    ),
+    'connection' => array(
+      'name' => t('Connection'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',

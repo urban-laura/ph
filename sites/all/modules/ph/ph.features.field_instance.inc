@@ -10,8 +10,8 @@
 function ph_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'entityform-form-field_ad_sz_ma_'.
-  $field_instances['entityform-form-field_ad_sz_ma_'] = array(
+  // Exported field_instance: 'entityform-form-field_email'.
+  $field_instances['entityform-form-field_email'] = array(
     'bundle' => 'form',
     'default_value' => NULL,
     'deleted' => 0,
@@ -19,40 +19,37 @@ function ph_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'number',
-        'settings' => array(
-          'decimal_separator' => '.',
-          'prefix_suffix' => TRUE,
-          'scale' => 0,
-          'thousand_separator' => '',
-        ),
-        'type' => 'number_integer',
-        'weight' => 3,
+        'module' => 'email',
+        'settings' => array(),
+        'type' => 'email_default',
+        'weight' => 1,
       ),
     ),
     'entity_type' => 'entityform',
-    'field_name' => 'field_ad_sz_ma_',
-    'label' => 'Adószáma:',
-    'required' => 0,
+    'exclude_cv' => 0,
+    'field_name' => 'field_email',
+    'label' => 'E-mail address',
+    'placeholder' => 'xxx@gmail.com',
+    'required' => 1,
     'settings' => array(
-      'max' => '',
-      'min' => '',
-      'prefix' => '',
-      'suffix' => '',
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
       'user_register_form' => FALSE,
     ),
+    'use_title_as_placeholder' => 0,
     'widget' => array(
-      'active' => 0,
-      'module' => 'number',
-      'settings' => array(),
-      'type' => 'number',
-      'weight' => 4,
+      'active' => 1,
+      'module' => 'email',
+      'settings' => array(
+        'size' => 40,
+      ),
+      'type' => 'email_textfield',
+      'weight' => 1,
     ),
   );
 
-  // Exported field_instance:
-  // 'entityform-form-field_megrendel_szem_ly_c_g_neve'.
-  $field_instances['entityform-form-field_megrendel_szem_ly_c_g_neve'] = array(
+  // Exported field_instance: 'entityform-form-field_nev'.
+  $field_instances['entityform-form-field_nev'] = array(
     'bundle' => 'form',
     'default_value' => NULL,
     'deleted' => 0,
@@ -67,26 +64,31 @@ function ph_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'entityform',
-    'field_name' => 'field_megrendel_szem_ly_c_g_neve',
-    'label' => 'Megrendelő személy / cég neve:',
+    'exclude_cv' => 0,
+    'field_name' => 'field_nev',
+    'label' => 'Name',
+    'placeholder' => 'Kiss János',
     'required' => 0,
     'settings' => array(
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
+    'use_title_as_placeholder' => 0,
     'widget' => array(
       'active' => 1,
       'module' => 'text',
       'settings' => array(
-        'size' => 60,
+        'size' => 40,
       ),
       'type' => 'text_textfield',
-      'weight' => 1,
+      'weight' => 0,
     ),
   );
 
-  // Exported field_instance: 'entityform-form-field_post_z_si_c_me_'.
-  $field_instances['entityform-form-field_post_z_si_c_me_'] = array(
+  // Exported field_instance: 'entityform-form-field_telefon'.
+  $field_instances['entityform-form-field_telefon'] = array(
     'bundle' => 'form',
     'default_value' => NULL,
     'deleted' => 0,
@@ -97,60 +99,67 @@ function ph_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 4,
       ),
     ),
     'entity_type' => 'entityform',
-    'field_name' => 'field_post_z_si_c_me_',
-    'label' => 'Postázási címe:',
+    'exclude_cv' => 0,
+    'field_name' => 'field_telefon',
+    'label' => 'Phone number',
+    'placeholder' => '+36700000000',
     'required' => 0,
     'settings' => array(
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
+    'use_title_as_placeholder' => 0,
     'widget' => array(
       'active' => 1,
       'module' => 'text',
       'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 3,
-    ),
-  );
-
-  // Exported field_instance:
-  // 'entityform-form-field_sz_ml_z_si_c_me_sz_khelye_'.
-  $field_instances['entityform-form-field_sz_ml_z_si_c_me_sz_khelye_'] = array(
-    'bundle' => 'form',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 1,
-      ),
-    ),
-    'entity_type' => 'entityform',
-    'field_name' => 'field_sz_ml_z_si_c_me_sz_khelye_',
-    'label' => 'Számlázási címe / székhelye:',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
+        'size' => 20,
       ),
       'type' => 'text_textfield',
       'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance: 'entityform-form-field_uzenet'.
+  $field_instances['entityform-form-field_uzenet'] = array(
+    'bundle' => 'form',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+    ),
+    'entity_type' => 'entityform',
+    'exclude_cv' => 0,
+    'field_name' => 'field_uzenet',
+    'label' => 'Message',
+    'required' => 0,
+    'settings' => array(
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 5,
+      ),
+      'type' => 'text_textarea',
+      'weight' => 3,
     ),
   );
 
@@ -180,6 +189,126 @@ function ph_field_default_field_instances() {
     'label' => 'Text',
     'required' => 0,
     'settings' => array(
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
+      'text_processing' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 10,
+      ),
+      'type' => 'text_textarea',
+      'weight' => -4,
+    ),
+  );
+
+  // Exported field_instance: 'node-connection-field_image_con'.
+  $field_instances['node-connection-field_image_con'] = array(
+    'bundle' => 'connection',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'exclude_cv' => 0,
+    'field_name' => 'field_image_con',
+    'label' => 'Image',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 0,
+      'default_image' => 0,
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'insert' => 1,
+        'insert_absolute' => 0,
+        'insert_class' => '',
+        'insert_default' => 'auto',
+        'insert_styles' => array(
+          'auto' => 'auto',
+          'colorbox__1_nivo' => 0,
+          'colorbox__gallery' => 0,
+          'colorbox__large' => 0,
+          'colorbox__medium' => 0,
+          'colorbox__nivo_style' => 0,
+          'colorbox__thumbnail' => 0,
+          'icon_link' => 0,
+          'image' => 0,
+          'image_1_nivo' => 0,
+          'image_gallery' => 0,
+          'image_large' => 0,
+          'image_medium' => 0,
+          'image_nivo_style' => 0,
+          'image_thumbnail' => 0,
+          'link' => 0,
+        ),
+        'insert_width' => '',
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 1,
+    ),
+  );
+
+  // Exported field_instance: 'node-connection-field_text_connection'.
+  $field_instances['node-connection-field_text_connection'] = array(
+    'bundle' => 'connection',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_text_connection',
+    'label' => 'Text',
+    'required' => 0,
+    'settings' => array(
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
       'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
@@ -224,6 +353,8 @@ function ph_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 1,
       'default_image' => 0,
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
@@ -266,7 +397,7 @@ function ph_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => '1_nivo',
+          'image_style' => '',
         ),
         'type' => 'image',
         'weight' => 0,
@@ -285,6 +416,8 @@ function ph_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 1,
       'default_image' => 0,
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
@@ -341,6 +474,8 @@ function ph_field_default_field_instances() {
     'label' => 'Text',
     'required' => 0,
     'settings' => array(
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
       'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
@@ -385,6 +520,8 @@ function ph_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
@@ -439,6 +576,8 @@ function ph_field_default_field_instances() {
     'label' => 'Text',
     'required' => 0,
     'settings' => array(
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
       'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
@@ -450,6 +589,80 @@ function ph_field_default_field_instances() {
       ),
       'type' => 'text_textarea',
       'weight' => -4,
+    ),
+  );
+
+  // Exported field_instance: 'node-where_to_apply_-field_image_w'.
+  $field_instances['node-where_to_apply_-field_image_w'] = array(
+    'bundle' => 'where_to_apply_',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'exclude_cv' => 0,
+    'field_name' => 'field_image_w',
+    'label' => 'Image',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 0,
+      'default_image' => 0,
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'insert' => 1,
+        'insert_absolute' => 0,
+        'insert_class' => '',
+        'insert_default' => 'auto',
+        'insert_styles' => array(
+          'auto' => 'auto',
+          'colorbox__1_nivo' => 0,
+          'colorbox__large' => 0,
+          'colorbox__medium' => 0,
+          'colorbox__nivo_style' => 0,
+          'colorbox__thumbnail' => 0,
+          'icon_link' => 0,
+          'image' => 0,
+          'image_1_nivo' => 0,
+          'image_large' => 0,
+          'image_medium' => 0,
+          'image_nivo_style' => 0,
+          'image_thumbnail' => 0,
+          'link' => 0,
+        ),
+        'insert_width' => '',
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 1,
     ),
   );
 
@@ -479,6 +692,8 @@ function ph_field_default_field_instances() {
     'label' => 'Text_apply',
     'required' => 0,
     'settings' => array(
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
       'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
@@ -519,6 +734,8 @@ function ph_field_default_field_instances() {
     'label' => 'Text',
     'required' => 0,
     'settings' => array(
+      'entity_translation_sync' => FALSE,
+      'exclude_cv' => FALSE,
       'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
@@ -535,13 +752,13 @@ function ph_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Adószáma:');
+  t('E-mail address');
   t('Image');
-  t('Megrendelő személy / cég neve:');
+  t('Message');
+  t('Name');
   t('Nivo Slider Image');
   t('One Nivo Slider Image');
-  t('Postázási címe:');
-  t('Számlázási címe / székhelye:');
+  t('Phone number');
   t('Text');
   t('Text_apply');
 

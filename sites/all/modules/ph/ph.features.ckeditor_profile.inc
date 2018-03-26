@@ -98,18 +98,6 @@ function ph_ckeditor_profile_defaults() {
             ),
             'default' => 't',
           ),
-          'image' => array(
-            'name' => 'image',
-            'desc' => 'Plugin file: image',
-            'path' => '%plugin_dir%image/',
-            'buttons' => array(
-              'Image' => array(
-                'label' => 'Image',
-                'icon' => 'icons/image.png',
-              ),
-            ),
-            'default' => 'f',
-          ),
           'mediaembed' => array(
             'name' => 'mediaembed',
             'desc' => 'Plugin for embedding HTML snippets',
@@ -154,10 +142,10 @@ function ph_ckeditor_profile_defaults() {
     [\'Format\'],
     [\'Bold\',\'Italic\',\'Underline\',\'Strike\',\'-\',\'Subscript\',\'Superscript\',\'-\',\'RemoveFormat\'],
     [\'NumberedList\',\'BulletedList\',\'-\',\'Outdent\',\'Indent\',\'Blockquote\'],
-    [\'JustifyLeft\',\'JustifyCenter\',\'JustifyRight\',\'JustifyBlock\'],
     [\'Link\',\'Unlink\'],
     \'/\',
-    [\'Styles\'],
+    [\'Styles\',\'-\',\'Font\',\'FontSize\'],
+    [\'JustifyLeft\',\'JustifyCenter\',\'JustifyRight\',\'JustifyBlock\'],
     [\'TextColor\',\'BGColor\']
 ]',
         'expand' => 't',
@@ -219,6 +207,13 @@ function ph_ckeditor_profile_defaults() {
             'buttons' => FALSE,
             'default' => 'f',
           ),
+          'colordialog' => array(
+            'name' => 'colordialog',
+            'desc' => 'Plugin file: colordialog',
+            'path' => '%plugin_dir%colordialog/',
+            'buttons' => FALSE,
+            'default' => 'f',
+          ),
           'dialog' => array(
             'name' => 'dialog',
             'desc' => 'Plugin file: dialog',
@@ -249,6 +244,20 @@ function ph_ckeditor_profile_defaults() {
             'name' => 'fakeobjects',
             'desc' => 'Plugin file: fakeobjects',
             'path' => '%plugin_dir%fakeobjects/',
+            'buttons' => FALSE,
+            'default' => 'f',
+          ),
+          'floatpanel' => array(
+            'name' => 'floatpanel',
+            'desc' => 'Plugin file: floatpanel',
+            'path' => '%plugin_dir%floatpanel/',
+            'buttons' => FALSE,
+            'default' => 'f',
+          ),
+          'font' => array(
+            'name' => 'font',
+            'desc' => 'Plugin file: font',
+            'path' => '%plugin_dir%font/',
             'buttons' => FALSE,
             'default' => 'f',
           ),
@@ -294,6 +303,30 @@ function ph_ckeditor_profile_defaults() {
             'buttons' => FALSE,
             'default' => 'f',
           ),
+          'justify' => array(
+            'name' => 'justify',
+            'desc' => 'Plugin file: justify',
+            'path' => '%plugin_dir%justify/',
+            'buttons' => array(
+              'JustifyLeft' => array(
+                'label' => 'JustifyLeft',
+                'icon' => 'icons/justifyleft.png',
+              ),
+              'JustifyCenter' => array(
+                'label' => 'JustifyCenter',
+                'icon' => 'icons/justifycenter.png',
+              ),
+              'JustifyRight' => array(
+                'label' => 'JustifyRight',
+                'icon' => 'icons/justifyright.png',
+              ),
+              'JustifyBlock' => array(
+                'label' => 'JustifyBlock',
+                'icon' => 'icons/justifyblock.png',
+              ),
+            ),
+            'default' => 'f',
+          ),
           'list' => array(
             'name' => 'list',
             'desc' => 'Plugin file: list',
@@ -310,6 +343,13 @@ function ph_ckeditor_profile_defaults() {
             ),
             'default' => 'f',
           ),
+          'listblock' => array(
+            'name' => 'listblock',
+            'desc' => 'Plugin file: listblock',
+            'path' => '%plugin_dir%listblock/',
+            'buttons' => FALSE,
+            'default' => 'f',
+          ),
           'liststyle' => array(
             'name' => 'liststyle',
             'desc' => 'Plugin file: liststyle',
@@ -317,10 +357,24 @@ function ph_ckeditor_profile_defaults() {
             'buttons' => FALSE,
             'default' => 'f',
           ),
+          'panel' => array(
+            'name' => 'panel',
+            'desc' => 'Plugin file: panel',
+            'path' => '%plugin_dir%panel/',
+            'buttons' => FALSE,
+            'default' => 'f',
+          ),
           'panelbutton' => array(
             'name' => 'panelbutton',
             'desc' => 'Plugin file: panelbutton',
             'path' => '%plugin_dir%panelbutton/',
+            'buttons' => FALSE,
+            'default' => 'f',
+          ),
+          'richcombo' => array(
+            'name' => 'richcombo',
+            'desc' => 'Plugin file: richcombo',
+            'path' => '%plugin_dir%richcombo/',
             'buttons' => FALSE,
             'default' => 'f',
           ),

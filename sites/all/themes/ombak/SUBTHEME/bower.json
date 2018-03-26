@@ -1,8 +1,0 @@
-{
-  "name": "ombak-subtheme",
-  "version": "0.0.1",
-  "private": "true",
-  "dependencies": {
-    "foundation": ">= 5.3.0"
-  }
-}
