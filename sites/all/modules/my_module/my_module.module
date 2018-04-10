@@ -1,0 +1,21 @@
+<?php
+
+function my_module_form_alter(&$form, &$form_state, $form_id) {
+
+
+	if($form_id == 'form_entityform_edit_form') {
+
+		$form['field_nev']['und'][0]['value']['#title'] = t($form['field_nev']['und'][0]['value']['#title']);
+
+		$form['field_uzenet']['und'][0]['value']['#title'] = t($form['field_uzenet']['und'][0]['value']['#title']);
+
+		$form['field_email']['und'][0]['email']['#title'] = t($form['field_email']['und'][0]['email']['#title']);
+
+		$form['field_telefon']['und'][0]['value']['#title'] = t($form['field_telefon']['und'][0]['value']['#title']);
+
+		$form['actions']['submit']['#value'] = t($form['actions']['submit']['#value']);
+		
+	}
+	
+}
+

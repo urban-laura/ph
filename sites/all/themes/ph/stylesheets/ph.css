@@ -58,100 +58,79 @@ tbody {
 
 /* line 48, ../sass/ph.sass */
 .field-item.even {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
-/* line 51, ../sass/ph.sass */
+/* line 53, ../sass/ph.sass */
+.page-node-53 .field-item.even {
+  height: 454px;
+  overflow-y: scroll;
+}
+
+/* line 57, ../sass/ph.sass */
+#outerImageContainer {
+  height: 480px !important;
+}
+
+/* line 60, ../sass/ph.sass */
 .error {
   color: red;
 }
 
-/* line 54, ../sass/ph.sass */
+/* line 63, ../sass/ph.sass */
 #cboxTitle {
   font-size: 0px;
   background: none;
 }
 
-/* line 60, ../sass/ph.sass */
+/* line 69, ../sass/ph.sass */
 .lightbox2-alt-layout-data #bottomNavClose {
   margin-top: 0;
 }
-/* line 63, ../sass/ph.sass */
+/* line 72, ../sass/ph.sass */
 .lightbox2-alt-layout-data #bottomNav {
   margin-bottom: 0;
 }
 
-/* line 66, ../sass/ph.sass */
+/* line 75, ../sass/ph.sass */
 #imageDataContainer.clearfix.lightbox2-alt-layout-data {
   height: 35px;
   border-radius: 0 0 5px 5px;
 }
 
-/* line 70, ../sass/ph.sass */
+/* line 79, ../sass/ph.sass */
 #imageData, #bottomNav {
   height: 0 !important;
 }
 
-/* line 73, ../sass/ph.sass */
+/* line 82, ../sass/ph.sass */
 #outerImageContainer {
   border-radius: 5px 5px 0 0;
   width: 300px;
 }
 
-/* line 77, ../sass/ph.sass */
+/* line 86, ../sass/ph.sass */
 #edit-actions {
   margin-bottom: 0px;
 }
 
-/* line 80, ../sass/ph.sass */
-#cboxNext, #cboxNext:hover {
-  background: url("arrows.png") no-repeat -30px 0px;
-  width: 30px;
-  height: 30px;
-  left: auto;
-  right: 5px;
-  top: 45%;
-  opacity: 0;
-}
-
 /* line 89, ../sass/ph.sass */
-#cboxPrevious, #cboxPrevious:hover {
-  background: url("arrows.png") no-repeat 0px 0px;
-  width: 30px;
-  height: 30px;
-  left: 5px;
-  right: auto;
-  top: 45%;
-  opacity: 0;
-}
-
-/* line 98, ../sass/ph.sass */
-#cboxCurrent {
-  left: 0;
-}
-
-/* line 102, ../sass/ph.sass */
-#cboxContent:hover #cboxNext, #cboxContent:hover #cboxPrevious {
-  opacity: 1;
-}
-
-/* line 106, ../sass/ph.sass */
 .form-item .description {
   font-size: 0px;
   margin: 0px;
 }
 
-/* line 110, ../sass/ph.sass */
+/* line 93, ../sass/ph.sass */
 p {
   margin: 0;
 }
 
-/* line 113, ../sass/ph.sass */
+/* line 96, ../sass/ph.sass */
 li {
   margin-left: 30px;
 }
 
-/* line 116, ../sass/ph.sass */
+/* line 99, ../sass/ph.sass */
 h1 {
   font-size: 3em;
   font-weight: 300;
@@ -159,40 +138,40 @@ h1 {
   padding: 0;
 }
 
-/* line 122, ../sass/ph.sass */
+/* line 105, ../sass/ph.sass */
 h2 {
   font-size: 2.6em;
   font-weight: 300;
   margin-bottom: 0.5em;
 }
 
-/* line 127, ../sass/ph.sass */
+/* line 110, ../sass/ph.sass */
 h3 {
   font-size: 2.2em;
   font-weight: 300;
   margin-bottom: 0.5em;
 }
 
-/* line 132, ../sass/ph.sass */
+/* line 115, ../sass/ph.sass */
 h4 {
   font-size: 1.8em;
   font-weight: 300;
   margin-bottom: 0.75em;
 }
 
-/* line 137, ../sass/ph.sass */
+/* line 120, ../sass/ph.sass */
 h5 {
   font-size: 1.4em;
   margin-bottom: 1em;
 }
 
-/* line 141, ../sass/ph.sass */
+/* line 124, ../sass/ph.sass */
 h6 {
   font-size: 1.2em;
   margin-bottom: 0.8em;
 }
 
-/* line 145, ../sass/ph.sass */
+/* line 128, ../sass/ph.sass */
 a.con {
   padding: 10px;
   background-color: #F25720;
@@ -203,66 +182,66 @@ a.con {
   border-radius: 5px;
 }
 
-/* line 154, ../sass/ph.sass */
+/* line 137, ../sass/ph.sass */
 a.con:hover {
   color: #2C2D2D;
   text-decoration: none;
 }
 
-/* line 158, ../sass/ph.sass */
+/* line 141, ../sass/ph.sass */
 #user-login, .node-form {
   margin-top: 60px;
 }
 
-/* line 161, ../sass/ph.sass */
+/* line 144, ../sass/ph.sass */
 .form-required {
   font-size: 18px;
 }
 
-/* line 164, ../sass/ph.sass */
+/* line 147, ../sass/ph.sass */
 #edit-field-uzenet-und-0-value {
   max-width: 389px;
 }
 
-/* line 167, ../sass/ph.sass */
+/* line 150, ../sass/ph.sass */
 .resizable-textarea .grippie {
   height: 0;
   width: 0;
   border: 0;
 }
 
-/* line 172, ../sass/ph.sass */
+/* line 155, ../sass/ph.sass */
 .panel-flexible {
   width: 100%;
 }
 
-/* line 175, ../sass/ph.sass */
+/* line 158, ../sass/ph.sass */
 .panels-flexible-1 .panels-flexible-row {
   padding: 0px;
 }
 
-/* line 178, ../sass/ph.sass */
+/* line 161, ../sass/ph.sass */
 .panel-flexible .panel-separator {
   margin: 0px;
 }
 
-/* line 181, ../sass/ph.sass */
+/* line 164, ../sass/ph.sass */
 .panels-flexible-region {
   width: 100%;
 }
 
-/* line 184, ../sass/ph.sass */
+/* line 167, ../sass/ph.sass */
 .inside.panels-flexible-region-inside {
   padding: 0px;
 }
 
-/* line 187, ../sass/ph.sass */
+/* line 170, ../sass/ph.sass */
 .letterhead .clearfix {
-  width: 1035px;
+  width: 1140px;
   margin: auto;
 }
 
-/* line 191, ../sass/ph.sass */
+/* line 174, ../sass/ph.sass */
 .letterhead {
   width: 100%;
   background: black;
@@ -271,28 +250,28 @@ a.con:hover {
   top: 0;
   z-index: 10;
 }
-/* line 199, ../sass/ph.sass */
+/* line 182, ../sass/ph.sass */
 .letterhead .logo {
   width: auto;
   padding-top: 10px;
   padding-right: 22px;
 }
-/* line 204, ../sass/ph.sass */
+/* line 187, ../sass/ph.sass */
 .letterhead .main_menu {
   width: auto;
   float: none;
 }
-/* line 208, ../sass/ph.sass */
+/* line 191, ../sass/ph.sass */
 .letterhead .main_menu ul {
   display: flex;
   line-height: 60px;
 }
-/* line 212, ../sass/ph.sass */
+/* line 195, ../sass/ph.sass */
 .letterhead .main_menu ul li {
   margin-left: 0px;
   list-style: none;
 }
-/* line 216, ../sass/ph.sass */
+/* line 199, ../sass/ph.sass */
 .letterhead .main_menu a {
   text-decoration: none;
   text-shadow: 0 1px 1px #F25720;
@@ -300,56 +279,59 @@ a.con:hover {
   padding-left: 15px;
   text-transform: uppercase;
 }
-/* line 223, ../sass/ph.sass */
+/* line 206, ../sass/ph.sass */
 .letterhead .main_menu a:hover {
   color: white;
 }
 
-/* line 226, ../sass/ph.sass */
+/* line 209, ../sass/ph.sass */
 .editor_menu {
   margin-top: 60px;
 }
-/* line 229, ../sass/ph.sass */
+/* line 212, ../sass/ph.sass */
 .editor_menu ul {
   display: flex;
 }
-/* line 232, ../sass/ph.sass */
+/* line 215, ../sass/ph.sass */
 .editor_menu ul li.leaf {
   list-style: none;
 }
-/* line 235, ../sass/ph.sass */
+/* line 218, ../sass/ph.sass */
 .editor_menu ul li.leaf a {
   font-size: 16px;
   color: red;
+  background-color: black;
+  padding: 7px;
+  border-radius: 5px;
 }
-/* line 239, ../sass/ph.sass */
+/* line 225, ../sass/ph.sass */
 .editor_menu ul li.leaf a.active {
-  color: black;
+  color: white;
 }
 
-/* line 243, ../sass/ph.sass */
+/* line 229, ../sass/ph.sass */
 #icon ul.language-switcher-locale-url {
   display: flex;
   float: right;
 }
-/* line 247, ../sass/ph.sass */
+/* line 233, ../sass/ph.sass */
 #icon ul.language-switcher-locale-url li {
   list-style: none;
   margin-left: 10px;
 }
 
-/* line 251, ../sass/ph.sass */
+/* line 237, ../sass/ph.sass */
 #slider img {
   width: 100%;
 }
 
-/* line 254, ../sass/ph.sass */
+/* line 240, ../sass/ph.sass */
 #introduction p, #partners p, #advantages p, #apply p, #parameters p {
   max-width: 1140px;
   margin: auto;
 }
 
-/* line 259, ../sass/ph.sass */
+/* line 245, ../sass/ph.sass */
 #introduction, #apply, #advantages, #gallery, #partners, #parameters, #connection {
   padding-bottom: 50px;
   border-top: solid 50px #fff0;
@@ -358,7 +340,7 @@ a.con:hover {
   padding-right: 10px;
   padding-left: 10px;
 }
-/* line 267, ../sass/ph.sass */
+/* line 253, ../sass/ph.sass */
 #introduction h6, #apply h6, #advantages h6, #gallery h6, #partners h6, #parameters h6, #connection h6 {
   font-size: 2.5em;
   font-weight: bold;
@@ -369,36 +351,36 @@ a.con:hover {
   padding-bottom: 40px;
 }
 
-/* line 276, ../sass/ph.sass */
+/* line 262, ../sass/ph.sass */
 #apply {
   background: #292929;
   border-top: solid 50px white;
 }
-/* line 280, ../sass/ph.sass */
+/* line 266, ../sass/ph.sass */
 #apply p {
   max-width: none;
 }
-/* line 283, ../sass/ph.sass */
+/* line 269, ../sass/ph.sass */
 #apply table {
   color: white;
   max-width: 1140px;
   margin: auto;
 }
-/* line 288, ../sass/ph.sass */
+/* line 274, ../sass/ph.sass */
 #apply table table {
-  width: 250px;
+  width: 245px;
 }
-/* line 291, ../sass/ph.sass */
+/* line 277, ../sass/ph.sass */
 #apply table table td {
   height: 120px;
 }
-/* line 294, ../sass/ph.sass */
+/* line 280, ../sass/ph.sass */
 #apply img {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 299, ../sass/ph.sass */
+/* line 285, ../sass/ph.sass */
 #advantages {
   background-image: url("/sites/default/files/IMG_13061%20ma%CC%81solata_0.jpeg");
   background-size: cover;
@@ -408,7 +390,7 @@ a.con:hover {
   padding-right: 0px;
   padding-left: 0px;
 }
-/* line 308, ../sass/ph.sass */
+/* line 294, ../sass/ph.sass */
 #advantages .pane-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding-bottom: 50px;
@@ -416,59 +398,64 @@ a.con:hover {
   border-right: solid 10px #fff0;
   border-left: solid 10px #fff0;
 }
-/* line 315, ../sass/ph.sass */
+/* line 301, ../sass/ph.sass */
 #advantages ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 320, ../sass/ph.sass */
+/* line 306, ../sass/ph.sass */
 #advantages ul li {
   padding-left: 13px;
   text-indent: -13px;
   margin-left: 0;
 }
-/* line 325, ../sass/ph.sass */
+/* line 311, ../sass/ph.sass */
 #advantages ul li::before {
   content: url("li.png");
   padding-right: 6px;
 }
-/* line 329, ../sass/ph.sass */
+/* line 315, ../sass/ph.sass */
 #advantages h6 {
   padding-top: 50px;
   margin-top: -50px;
 }
-/* line 333, ../sass/ph.sass */
+/* line 319, ../sass/ph.sass */
 #advantages table {
   color: white;
   max-width: 1140px;
   margin: auto;
 }
-/* line 338, ../sass/ph.sass */
+/* line 324, ../sass/ph.sass */
 #advantages table table {
   width: 250px;
   margin-top: 25px;
 }
 
-/* line 344, ../sass/ph.sass */
+/* line 328, ../sass/ph.sass */
+#partners {
+  padding-bottom: 30px;
+}
+/* line 332, ../sass/ph.sass */
 #partners table {
   width: auto;
   margin: auto;
 }
-/* line 348, ../sass/ph.sass */
+/* line 336, ../sass/ph.sass */
 #partners table table {
   float: left;
   width: auto;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 15px;
+  margin-bottom: 20px;
 }
-/* line 355, ../sass/ph.sass */
+/* line 344, ../sass/ph.sass */
 #partners table table img {
   height: 80px;
 }
 
-/* line 358, ../sass/ph.sass */
+/* line 347, ../sass/ph.sass */
 #parameters {
   background-image: url("/sites/default/files/rajz.png");
   background-size: cover;
@@ -478,7 +465,7 @@ a.con:hover {
   padding-right: 0px;
   padding-left: 0px;
 }
-/* line 368, ../sass/ph.sass */
+/* line 357, ../sass/ph.sass */
 #parameters .pane-content {
   background-color: rgba(0, 0, 0, 0.6);
   padding-bottom: 50px;
@@ -486,19 +473,19 @@ a.con:hover {
   border-right: solid 10px #fff0;
   border-left: solid 10px #fff0;
 }
-/* line 375, ../sass/ph.sass */
+/* line 364, ../sass/ph.sass */
 #parameters h6 {
   padding-top: 50px;
   margin-top: -50px;
 }
-/* line 379, ../sass/ph.sass */
+/* line 368, ../sass/ph.sass */
 #parameters table {
   max-width: 900px;
   margin: auto;
   color: white;
 }
 
-/* line 384, ../sass/ph.sass */
+/* line 374, ../sass/ph.sass */
 #gallery {
   max-width: 1140px;
   margin: auto;
@@ -506,12 +493,12 @@ a.con:hover {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 393, ../sass/ph.sass */
+/* line 383, ../sass/ph.sass */
 #gallery img:hover {
   opacity: 0.4;
 }
 
-/* line 397, ../sass/ph.sass */
+/* line 387, ../sass/ph.sass */
 #introduction h6::before, #apply h6::before, #advantages h6::before, #gallery h6::before, #partners h6::before, #parameters h6::before {
   border-top: 1px solid #EA4B35;
   float: right;
@@ -521,7 +508,7 @@ a.con:hover {
   margin-top: 22px;
 }
 
-/* line 405, ../sass/ph.sass */
+/* line 395, ../sass/ph.sass */
 #introduction h6::after, #apply h6::after, #advantages h6::after, #gallery h6::after, #partners h6::after, #parameters h6::after {
   border-top: 1px solid #EA4B35;
   float: left;
@@ -531,122 +518,122 @@ a.con:hover {
   margin-top: 22px;
 }
 
-/* line 413, ../sass/ph.sass */
+/* line 403, ../sass/ph.sass */
 #advantages h6::before, #advantages h6::after {
   width: 38%;
 }
 
-/* line 416, ../sass/ph.sass */
+/* line 406, ../sass/ph.sass */
 #introduction h6::before, #introduction h6::after {
   width: 37%;
 }
 
-/* line 419, ../sass/ph.sass */
+/* line 409, ../sass/ph.sass */
 #apply h6::before, #apply h6::after {
   width: 24%;
 }
 
-/* line 422, ../sass/ph.sass */
+/* line 412, ../sass/ph.sass */
 #partners h6::before, #partners h6::after {
   width: 36%;
 }
 
-/* line 425, ../sass/ph.sass */
+/* line 415, ../sass/ph.sass */
 #parameters h6::before, #parameters h6::after {
   width: 34%;
 }
 
-/* line 428, ../sass/ph.sass */
+/* line 418, ../sass/ph.sass */
 #gallery h6::before, #gallery h6::after {
   width: 39%;
 }
 
-/* line 431, ../sass/ph.sass */
+/* line 421, ../sass/ph.sass */
 #connection {
   background: #292929;
   border-top: solid 50px #fff;
+  padding-right: 0px;
+  padding-left: 0px;
 }
-/* line 435, ../sass/ph.sass */
+/* line 427, ../sass/ph.sass */
 #connection table {
   max-width: 1140px;
   margin: auto;
 }
-/* line 439, ../sass/ph.sass */
+/* line 431, ../sass/ph.sass */
 #connection table table {
   max-width: 280px;
 }
 
-/* line 442, ../sass/ph.sass */
+/* line 434, ../sass/ph.sass */
 .panels-flexible-region.panels-flexible-region-2-map_ {
-  height: 320px;
+  height: 450px;
 }
 
-/* line 447, ../sass/ph.sass */
+/* line 439, ../sass/ph.sass */
 .map iframe {
   width: 100%;
-  height: 320px;
+  height: 450px;
 }
 
-/* line 451, ../sass/ph.sass */
+/* line 443, ../sass/ph.sass */
 #my_footer {
   background: black;
   margin-bottom: -21px;
   padding-right: 10px;
   padding-left: 10px;
 }
-/* line 457, ../sass/ph.sass */
+/* line 449, ../sass/ph.sass */
 #my_footer table {
   margin: auto;
   height: 60px;
 }
 
 @media screen and (max-width: 1139px) {
-  /* line 464, ../sass/ph.sass */
+  /* line 456, ../sass/ph.sass */
   #gallery {
     max-width: 800px;
   }
-  /* line 467, ../sass/ph.sass */
+  /* line 459, ../sass/ph.sass */
   #gallery img {
     width: 200px;
     height: 200px;
   }
-
-  /* line 473, ../sass/ph.sass */
-  #connection table table {
-    max-width: 148px;
-  }
 }
 @media screen and (max-width: 1089px) {
-  /* line 478, ../sass/ph.sass */
+  /* line 466, ../sass/ph.sass */
   h6 {
     font-size: 2.4em !important;
   }
 }
+@media screen and (max-width: 1069px) {
+  /* line 473, ../sass/ph.sass */
+  #partners table table {
+    width: 180px;
+  }
+  /* line 476, ../sass/ph.sass */
+  #partners table table img {
+    height: 65px;
+  }
+}
 @media screen and (max-width: 1014px) {
-  /* line 483, ../sass/ph.sass */
+  /* line 481, ../sass/ph.sass */
   h6 {
     font-size: 2.3em !important;
     line-height: 1.5em !important;
   }
 }
-@media screen and (max-width: 969px) {
-  /* line 489, ../sass/ph.sass */
-  h6 {
-    font-size: 2.1em !important;
-    line-height: 1.6em !important;
-  }
-}
 @media screen and (max-width: 1034px) {
-  /* line 495, ../sass/ph.sass */
+  /* line 487, ../sass/ph.sass */
   .editor_menu {
     margin-top: 52px;
   }
 
-  /* line 500, ../sass/ph.sass */
+  /* line 492, ../sass/ph.sass */
   .mean-bar .mean-nav {
     background-color: black;
   }
-  /* line 503, ../sass/ph.sass */
+  /* line 495, ../sass/ph.sass */
   .mean-bar a {
     background-color: #F1541E;
     border-radius: 5px;
@@ -654,76 +641,102 @@ a.con:hover {
     margin-right: 15px;
   }
 
-  /* line 509, ../sass/ph.sass */
+  /* line 501, ../sass/ph.sass */
   .mean-container a.meanmenu-reveal {
     padding: 5px;
   }
 
-  /* line 512, ../sass/ph.sass */
+  /* line 504, ../sass/ph.sass */
   .mean-container .mean-bar {
     position: fixed;
     background: black;
     left: auto;
     right: 0px;
     width: 55%;
+    top: 0px;
+    z-index: 10;
   }
 
-  /* line 519, ../sass/ph.sass */
+  /* line 513, ../sass/ph.sass */
   .mean-container .mean-nav ul {
     margin-top: 4px;
   }
 
-  /* line 523, ../sass/ph.sass */
+  /* line 517, ../sass/ph.sass */
   nav.mean-nav li {
     margin-left: 0;
   }
-  /* line 526, ../sass/ph.sass */
+  /* line 520, ../sass/ph.sass */
   nav.mean-nav li a {
     background-color: black;
     border-radius: 0;
     font-size: 13px;
   }
-  /* line 531, ../sass/ph.sass */
+  /* line 525, ../sass/ph.sass */
   nav.mean-nav .first {
     margin-top: 4px;
   }
 
-  /* line 534, ../sass/ph.sass */
+  /* line 528, ../sass/ph.sass */
+  .letterhead .clearfix {
+    width: 100%;
+    background-color: black;
+  }
+
+  /* line 532, ../sass/ph.sass */
   .letterhead {
     height: 50px;
+    width: 45%;
   }
-  /* line 537, ../sass/ph.sass */
+  /* line 536, ../sass/ph.sass */
   .letterhead .logo {
     padding: 0px;
     height: 52px;
     background: black;
     width: 45%;
   }
-  /* line 543, ../sass/ph.sass */
+  /* line 542, ../sass/ph.sass */
   .letterhead .logo img {
     max-width: 150px;
     margin-top: 10px;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 969px) {
   /* line 548, ../sass/ph.sass */
+  h6 {
+    font-size: 2.1em !important;
+    line-height: 1.6em !important;
+  }
+}
+@media screen and (max-width: 899px) {
+  /* line 553, ../sass/ph.sass */
   #apply h6::before, #apply h6::after {
     width: 22%;
   }
 }
 @media screen and (max-width: 869px) {
-  /* line 554, ../sass/ph.sass */
+  /* line 559, ../sass/ph.sass */
   #apply img {
     width: 0px !important;
     height: 0px !important;
   }
-  /* line 558, ../sass/ph.sass */
+  /* line 563, ../sass/ph.sass */
   #apply table {
     max-width: 600px;
   }
 }
+@media screen and (max-width: 859px) {
+  /* line 570, ../sass/ph.sass */
+  #partners table table {
+    width: 130px;
+  }
+  /* line 573, ../sass/ph.sass */
+  #partners table table img {
+    height: 50px;
+  }
+}
 @media screen and (max-width: 839px) {
-  /* line 565, ../sass/ph.sass */
+  /* line 580, ../sass/ph.sass */
   #advantages table table {
     float: left;
     width: 100%;
@@ -731,121 +744,142 @@ a.con:hover {
   }
 }
 @media screen and (max-width: 829px) {
-  /* line 571, ../sass/ph.sass */
+  /* line 586, ../sass/ph.sass */
   #advantages h6::before, #advantages h6::after, #introduction h6::before, #introduction h6::after, #apply h6::before, #apply h6::after, #partners h6::before, #partners h6::after, #parameters h6::before, #parameters h6::after, #gallery h6::before, #gallery h6::after {
     width: 0%;
   }
 }
-@media screen and (max-width: 796px) {
-  /* line 577, ../sass/ph.sass */
-  #parameters .rteleft h5 {
-    padding-top: 40px;
-  }
-  /* line 581, ../sass/ph.sass */
-  #parameters table td {
-    float: left;
-  }
-}
 @media screen and (max-width: 799px) {
-  /* line 586, ../sass/ph.sass */
+  /* line 591, ../sass/ph.sass */
   #gallery {
     max-width: 600px;
   }
-  /* line 589, ../sass/ph.sass */
+  /* line 594, ../sass/ph.sass */
   #gallery img {
     width: 150px;
     height: 150px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 595, ../sass/ph.sass */
+  /* line 600, ../sass/ph.sass */
   #advantages {
     background: #1C4180;
   }
 
-  /* line 598, ../sass/ph.sass */
+  /* line 603, ../sass/ph.sass */
   #parameters {
     background: #7A7ABD;
   }
 }
-@media screen and (max-width: 669px) {
-  /* line 605, ../sass/ph.sass */
+@media screen and (max-width: 675px) {
+  /* line 609, ../sass/ph.sass */
+  #parameters .rteleft h5 {
+    padding-top: 40px;
+  }
+  /* line 613, ../sass/ph.sass */
+  #parameters table td {
+    float: left;
+  }
+}
+@media screen and (max-width: 674px) {
+  /* line 620, ../sass/ph.sass */
+  #partners table table {
+    float: none;
+    width: auto;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  /* line 626, ../sass/ph.sass */
+  #partners table table img {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 839px) {
+  /* line 633, ../sass/ph.sass */
   #connection table table {
-    float: inherit;
+    float: none;
     margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 599px) {
-  /* line 611, ../sass/ph.sass */
+  /* line 639, ../sass/ph.sass */
   #gallery {
     max-width: 400px;
   }
-  /* line 614, ../sass/ph.sass */
+  /* line 642, ../sass/ph.sass */
   #gallery img {
     width: 100px;
     height: 100px;
   }
-
-  /* line 620, ../sass/ph.sass */
-  #partners table table {
-    float: none;
-    margin: auto;
-    margin-bottom: 20px;
-  }
 }
 @media screen and (max-width: 569px) {
-  /* line 628, ../sass/ph.sass */
+  /* line 650, ../sass/ph.sass */
   #apply img {
     width: 0px !important;
     height: 0px !important;
   }
-  /* line 632, ../sass/ph.sass */
+  /* line 654, ../sass/ph.sass */
   #apply table {
     width: 300px;
     margin-left: 0px;
   }
-  /* line 636, ../sass/ph.sass */
+  /* line 658, ../sass/ph.sass */
   #apply table td {
     float: left;
   }
-  /* line 639, ../sass/ph.sass */
+  /* line 661, ../sass/ph.sass */
   #apply table td.rtecenter {
     height: 0;
   }
-  /* line 642, ../sass/ph.sass */
+  /* line 664, ../sass/ph.sass */
   #apply table table {
     width: 300px;
   }
-  /* line 645, ../sass/ph.sass */
+  /* line 667, ../sass/ph.sass */
   #apply table table td {
     height: auto;
     padding-bottom: 15px;
   }
 }
 @media screen and (max-width: 459px) {
-  /* line 651, ../sass/ph.sass */
+  /* line 673, ../sass/ph.sass */
   #outerImageContainer {
     width: 300px !important;
   }
 
-  /* line 654, ../sass/ph.sass */
+  /* line 676, ../sass/ph.sass */
   #lightboxFrame {
     width: 280px;
   }
 
-  /* line 657, ../sass/ph.sass */
+  /* line 679, ../sass/ph.sass */
   #imageDataContainer.clearfix.lightbox2-alt-layout-data {
     width: 300px !important;
   }
 }
 @media screen and (max-width: 399px) {
-  /* line 662, ../sass/ph.sass */
+  /* line 685, ../sass/ph.sass */
   #gallery {
     max-width: 320px;
   }
-  /* line 665, ../sass/ph.sass */
+  /* line 688, ../sass/ph.sass */
   #gallery img {
     width: 80px;
     height: 80px;
+  }
+}
+@media screen and (max-width: 300px) {
+  /* line 694, ../sass/ph.sass */
+  #edit-field-uzenet-und-0-value {
+    max-width: 280px;
+  }
+
+  /* line 699, ../sass/ph.sass */
+  #form-entityform-edit-form input {
+    width: 280px;
+  }
+  /* line 702, ../sass/ph.sass */
+  #form-entityform-edit-form #edit-submit {
+    width: auto;
   }
 }

@@ -46,7 +46,16 @@ tbody
 		width: 0
 
 .field-item.even
-	margin-top: 30px
+	margin-top: 0px
+
+.page-node-53
+
+	.field-item.even
+		height: 454px
+		overflow-y: scroll
+
+#outerImageContainer
+	height: 480px !important
 
 .error
 	color: red
@@ -76,32 +85,6 @@ tbody
 
 #edit-actions
 	margin-bottom: 0px
-
-#cboxNext, #cboxNext:hover
-	background: url("arrows.png") no-repeat -30px 0px
-	width: 30px
-	height: 30px
-	left: auto
-	right: 5px
-	top: 45%
-	opacity: 0
-
-#cboxPrevious, #cboxPrevious:hover
-	background: url("arrows.png") no-repeat 0px 0px
-	width: 30px
-	height: 30px
-	left: 5px
-	right: auto
-	top: 45%
-	opacity: 0
-
-#cboxCurrent
-	left: 0
-
-#cboxContent:hover
-	#cboxNext, #cboxPrevious
-		opacity: 1
-
 
 .form-item .description
 	font-size: 0px
@@ -185,7 +168,7 @@ a.con:hover
 	padding: 0px
 
 .letterhead .clearfix
-	width: 1035px
+	width: 1140px
 	margin: auto
 
 .letterhead
@@ -235,9 +218,12 @@ a.con:hover
 			a
 				font-size: 16px
 				color: red
+				background-color: black
+				padding: 7px
+				border-radius: 5px
 
 			a.active
-				color: black
+				color: white
 
 #icon
 	ul.language-switcher-locale-url
@@ -286,7 +272,7 @@ a.con:hover
 		margin: auto
 
 		table
-			width: 250px
+			width: 245px
 
 			td
 				height: 120px
@@ -341,6 +327,8 @@ a.con:hover
 
 #partners
 
+	padding-bottom: 30px
+
 	table
 		width: auto
 		margin: auto
@@ -351,6 +339,7 @@ a.con:hover
 			margin-left: 15px
 			margin-right: 15px
 			margin-top: 15px
+			margin-bottom: 20px
 
 			img
 				height: 80px
@@ -380,6 +369,7 @@ a.con:hover
 		max-width: 900px
 		margin: auto
 		color: white
+
 
 #gallery 
 
@@ -431,6 +421,8 @@ a.con:hover
 #connection
 	background: #292929
 	border-top: solid 50px #fff
+	padding-right: 0px
+	padding-left: 0px
 
 	table
 		max-width: 1140px
@@ -440,13 +432,13 @@ a.con:hover
 			max-width: 280px
 
 .panels-flexible-region.panels-flexible-region-2-map_
-	height: 320px
+	height: 450px
 	
 .map
 
 	iframe
 		width: 100%
-		height: 320px
+		height: 450px
 
 #my_footer
 	background: black
@@ -468,27 +460,27 @@ a.con:hover
 			width: 200px
 			height: 200px
 
-	#connection
-		table
-			table
-				max-width: 148px
-
+	
 @media screen and (max-width: 1089px)
 
 	h6
 		font-size: 2.4em !important
+
+@media screen and (max-width: 1069px)
+
+	#partners
+		table
+			table
+				width: 180px
+
+				img
+					height: 65px
 
 @media screen and (max-width: 1014px)
 
 	h6
 		font-size: 2.3em !important
 		line-height: 1.5em !important
-
-@media screen and (max-width: 969px)
-
-	h6
-		font-size: 2.1em !important
-		line-height: 1.6em !important
 
 @media screen and (max-width: 1034px)
 
@@ -515,6 +507,8 @@ a.con:hover
 		left: auto
 		right: 0px
 		width: 55%
+		top: 0px
+		z-index: 10
 
 	.mean-container .mean-nav ul
 		margin-top: 4px
@@ -531,8 +525,13 @@ a.con:hover
 		.first
 			margin-top: 4px
 
+	.letterhead .clearfix
+		width: 100%
+		background-color: black
+
 	.letterhead
 		height: 50px 
+		width: 45%
 
 		.logo
 			padding: 0px
@@ -543,6 +542,12 @@ a.con:hover
 			img
 				max-width: 150px
 				margin-top: 10px
+
+@media screen and (max-width: 969px)
+
+	h6
+		font-size: 2.1em !important
+		line-height: 1.6em !important
 		
 @media screen and (max-width: 899px)
 	#apply h6::before, #apply h6::after
@@ -558,6 +563,16 @@ a.con:hover
 		table
 			max-width: 600px
 
+@media screen and (max-width: 859px)
+
+	#partners
+		table
+			table
+				width: 130px
+
+				img
+					height: 50px
+
 @media screen and (max-width: 839px)
 
 	#advantages
@@ -570,16 +585,6 @@ a.con:hover
 @media screen and (max-width: 829px)
 	#advantages h6::before, #advantages h6::after, #introduction h6::before, #introduction h6::after, #apply h6::before, #apply h6::after, #partners h6::before, #partners h6::after, #parameters h6::before, #parameters h6::after, #gallery h6::before, #gallery h6::after
 		width: 0%
-
-@media screen and (max-width: 796px)
-
-	#parameters
-		.rteleft h5
-			padding-top: 40px
-
-		table
-			td
-				float: left
 
 @media screen and (max-width: 799px)
 	
@@ -598,12 +603,35 @@ a.con:hover
 	#parameters
 		background: #7A7ABD
 
-@media screen and (max-width: 669px)
+@media screen and (max-width: 675px)
+
+	#parameters
+		.rteleft h5
+			padding-top: 40px
+
+		table
+			td
+				float: left
+
+@media screen and (max-width: 674px)
+
+	#partners
+		table
+			table
+				float: none
+				width: auto
+				margin: auto
+				margin-bottom: 20px
+
+				img
+					height: 80px
+
+@media screen and (max-width: 839px)
 
 	#connection
 		table
 			table
-				float: inherit
+				float: none
 				margin-bottom: 30px
 
 @media screen and (max-width: 599px)
@@ -615,12 +643,6 @@ a.con:hover
 			width: 100px
 			height: 100px
 
-	#partners
-		table
-			table
-				float: none
-				margin: auto
-				margin-bottom: 20px
 
 @media screen and (max-width: 569px)
 
@@ -657,6 +679,7 @@ a.con:hover
 	#imageDataContainer.clearfix.lightbox2-alt-layout-data
 		width: 300px !important
 
+
 @media screen and (max-width: 399px)
 	
 	#gallery 
@@ -666,6 +689,20 @@ a.con:hover
 			width: 80px
 			height: 80px
 
+@media screen and (max-width: 300px)			
+
+	#edit-field-uzenet-und-0-value
+		max-width: 280px
+
+	#form-entityform-edit-form
+
+		input
+			width: 280px
+
+		#edit-submit
+			width: auto
+
+			
 
 
 
