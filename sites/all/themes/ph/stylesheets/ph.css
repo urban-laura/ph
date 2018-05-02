@@ -382,7 +382,7 @@ a.con:hover {
 
 /* line 285, ../sass/ph.sass */
 #advantages {
-  background-image: url("/sites/default/files/IMG_13061%20ma%CC%81solata_0.jpeg");
+  background-image: url("/sites/default/files/oldal_kepe_2.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 0% -15px;
@@ -613,7 +613,7 @@ a.con:hover {
   }
   /* line 476, ../sass/ph.sass */
   #partners table table img {
-    height: 65px;
+    height: 60px;
   }
 }
 @media screen and (max-width: 1014px) {
@@ -732,7 +732,7 @@ a.con:hover {
   }
   /* line 573, ../sass/ph.sass */
   #partners table table img {
-    height: 50px;
+    height: 47px;
   }
 }
 @media screen and (max-width: 839px) {
